@@ -19,6 +19,8 @@
   
   - Il programma viene svolto con java o javascript
   - Verrà esposto un triangolo bianco in una schermata e bisognerà cliccare in vari punti della schermata per poter "tagliare" il           triangolo in vari modi
+  - Gli utenti che interagiscono con il programma non hanno bisogno di alcuna conoscenza tecnica
+  - Bisogna avere una buona conoscenza 
 
   -   Quale è e come è organizzato il contesto in cui il prodotto dovrà
       funzionare?
