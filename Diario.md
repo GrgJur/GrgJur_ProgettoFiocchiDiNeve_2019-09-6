@@ -1,9 +1,10 @@
 
 # Fiocchi di neve | Diario di lavoro
-##### Jure Grgic
+### Jure Grgic
 
-Recap del lavoro svolto il giorno 6.09.2019 presso la Scuola d'arti e mestieri di Trevano:
-
+#### Recap del lavoro svolto il giorno 6.09.2019 presso la Scuola d'arti e mestieri di Trevano:
+- Creazione della macchina virtuale
+- 
 
 
 ##  Problemi riscontrati e soluzioni adottate
