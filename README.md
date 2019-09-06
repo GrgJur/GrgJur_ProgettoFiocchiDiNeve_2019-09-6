@@ -1,2 +1,2 @@
-# GrgJur_ProgettoFiocchiDiNeve_2019-09-6
+# Modulo 306
 Repository per il primo progetto del modulo 306
