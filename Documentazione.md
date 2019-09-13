@@ -42,17 +42,23 @@
   
 ### Analisi e specifica dei requisiti
 
-  1.  Il programma deve poter presentare una schermata all'utente per permettergli di interagire con il programma
+  1.  Il programma deve poter presentare un interfaccia grafica all'utente per permettergli di interagire con il programma
   2.  La schermata deve presentare un triangolo
   3.  L'utente deve avere la possibilità di "tagliare" il triangolo a proprio piacimento
-  4.  I colori utilizzati per lo sfondo della schermata e per il triangolo, devono essere differenti
-  5.  Quando l'utente schiaccia all'interno della schermata, deve apparire un puntino distinguibile nello stesso punto in cui viene             eseguita l'azione
-  6.  L'utente deve avere la possibilità di spostare o eliminare a proprio piacimento i puntini che ha già piazzato in precedenza
-  7.  Devono essere disponibili in schermata due pulsanti, sempre disinguibili, per permettere di resettare i "tagli" oppure salvarli
-  8.  Una volta salvato il sistema di taglio, deve apparire la schermata con il relativo triangolo tagliato e stampato per 8 volte in
+  4. I tagli del triangolo devono essere fatti con il mouse
+  5.  I colori utilizzati per lo sfondo della schermata e per il triangolo, devono essere differenti
+  6.  Quando l'utente schiaccia all'interno della schermata, deve apparire un puntino distinguibile nello stesso punto in cui viene             eseguita l'azione
+  7.  L'utente deve avere la possibilità di spostare o eliminare a proprio piacimento i puntini che ha già piazzato in precedenza
+  8.  Devono essere disponibili in schermata due pulsanti, sempre disinguibili, per permettere di resettare i "tagli" oppure salvarli
+  9.  Una volta salvato il sistema di taglio, deve apparire la schermata con il relativo triangolo tagliato e stampato per 8 volte in
       modo da formare una forma ottagonale, così da sembrare un fiocco di neve
-  9.  L'applicativo deve permettere di salvare i punti di taglio per permettere modifiche o rigenerazioni future
-  10. L'applicativo deve salvare la figura del fiocco di neve generato in formato raster e vettoriale, preferibilmente in formati PNG e       SVG (la dimenosione dell'immmagine è scelta libera dell'utente)
+  10.  L'applicativo deve permettere di salvare i punti di taglio per permettere modifiche o rigenerazioni future
+  11. L'applicativo deve salvare la figura del fiocco di neve generato in formato raster e vettoriale, preferibilmente in formati PNG e       SVG (la dimenosione dell'immmagine è scelta libera dell'utente)
+  12. L'applicativo deve essere scritto in java o javascript
+  13. Se JAVA: deve esistere un sito con descrizione software e deve essere possibile scaricare il software
+  14. Se JAVASCRIPT: Deve esserci un sito web che ospiti l'applicativo
+
+ Una volta eseguito il programma
 
   In base alla lista dei requisiti e all’analisi degli stessi, il
   progettista redige una *specifica dei requisiti* in cui elenca e
@@ -100,4 +106,26 @@ vecchie dovranno essere inserite nei diari.
 requisiti.
 
 **Sotto requisiti**: elementi che compongono il requisito.
-
+#Domande
+ - Salvataggio dimensioni definite: solo raster o anche vettoriale?
+ - Salvataggio dimensioni minime e massime?
+ - In che tipo di file vanno salvati i punti di taglio?
+ - I punti salvati dovranno poter essere caricati, come?
+ - Quanti poligoni di taglio si possono avere?
+ - Esiste un numero limite di punti?
+ - Che caratteristiche deve avere il sito?
+ - Cosa significa la generazione in tempo reale?
+ - Il tasto genera, salva subito o visualizza un anteprima?
+ - Nella versione Java, come deve essere forntio il file? .class o .jar?
+ - Il triangolo può variare di dimensioni?
+ - Il triangolo deve essere sempre centrato?
+ - Deve esistere una barra di menu in alto?
+ - Prima del salvataggio definizione di cartella?
+ - Deve esistere un file di configurazione?
+ - Proprietà del sito nel progetto?
+ - Finestra ridimensionabile? Dimensioni minime?
+ - Colori del sito?
+ - Nel sito JAVA cosa deve esserci esattamente?
+ - Rendering live, opzione o deve essere abilitato da subito?
+ - Salvataggio percorso: file o db?
+ - Sistema di caricamento, come deve essere fatta?
