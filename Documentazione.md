@@ -57,9 +57,10 @@
 ### Analisi del dominio
   
   - Il programma viene svolto con java o javascript
-  - Verrà esposto un triangolo bianco in una schermata e bisognerà cliccare in vari punti della schermata per poter "tagliare" il           triangolo in vari modi
+  - Verrà esposto un triangolo in una schermata e bisognerà cliccare in vari punti della schermata per poter "tagliare" il                   triangolo in vari modi
+  - Il seguente applicativo probabilmente è già stato svolto da qualche altro programatore, quindi questa non è la prima volta che viene     creato il seguente programma
   - Gli utenti che interagiscono con il programma non hanno bisogno di alcuna conoscenza tecnica
-  - Bisogna avere una buona conoscenza di java, o javascript nel caso si utilizzi questo linguaggio per fare il programma
+  - Bisogna avere una buona conoscenza di java, o javascript nel caso si utilizzi questo linguaggio, per fare il programma
 
    -   Quale è e come è organizzato il contesto in cui il prodotto dovrà
        funzionare?
@@ -80,6 +81,29 @@
   -   …
   
 ### Analisi e specifica dei requisiti
+
+  |**ID**	|**Nome**			|**Priorità**|**Vers**|**Note**  |
+  |----|------------|--------|----|------|
+  |Req-1 |Il software deve essere scritto in JAVA o JS|1|1.0|-|
+  |Req-2|Occorre l'utilizzo di un'interfaccia grafica|1|1.0|-|
+  |Req-3|La finistra dell'interfaccia è ridimensionabile, minimo 1024x768|1|1.0|-|
+  |Req-4|Deve esistere un sito con la descrizione del software|1|1.0|-|
+  |Req-5|Deve essere possibile scaricare il software dal sito|1|1.0|-|
+  |Req-6|Il software deve avere un'interfaccia grafica (jframe o frame)|1|1.0|-|
+  |Req-7|All'avvio deve essere mostrato il triangolo da ritagliare|1|1.0|-|
+  |Req-8|Il triangolo può ridimensionarsi in base alla grandezza dell'interfaccia (iniziale 50%)|1|1.0|-|
+  |Req-9|I tagli (punti) del triangolo devono poter essere fatti con il mouse|1|1.0|-|
+  |Req-10|I tagli (punti) del triangolo devono poter essere fatti con il mouse|1|1.0|-|
+  |Req-11|Deve essere possibile resettare i punti del ritaglio|1|1.0|-|
+  |Req-12|Deve esistere un tasto 'genera fiocco'|1|1.0|-|
+  |Req-13|La generazione del fiocco avvenire in tempo reale (anteprima con i punti attualmente messi)|2|1.0|-|
+  |Req-14|I punti devono poter essere spostati o rimossi |2|1.0|-|
+  |Req-15|Il lavoro deve poter essere salvato|1|1.0|-|
+  |Req-16|Il salvataggio del fiocco deve essere fatto in formato PNG o SVG tramite un bottone 'salva'|1|1.0|-|
+  |Req-17|Il salvataggio deve avere dimensioni definite dall'utente|1|1.0|-|
+  |Req-18|I punti devono essere salvabili in un file|1|1.0|-|
+  |Req-19|I punti potranno essere importati tramite esplora file|1|1.0|-|
+  |Req-20|È possibile switchare tra creazione/eliminazione punto tramite un bottone 'creazione/eliminazione'|2|1.0|-|
 
   1.  Il programma deve poter presentare un interfaccia grafica all'utente per permettergli di interagire con il programma
   2.  La schermata deve presentare un triangolo
