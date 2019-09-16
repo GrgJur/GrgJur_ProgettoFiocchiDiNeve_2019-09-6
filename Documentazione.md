@@ -58,27 +58,11 @@
   
   - Il programma viene svolto con java o javascript
   - Verrà esposto un triangolo in una schermata e bisognerà cliccare in vari punti della schermata per poter "tagliare" il                   triangolo in vari modi
-  - Il seguente applicativo probabilmente è già stato svolto da qualche altro programatore, quindi questa non è la prima volta che viene     creato il seguente programma
+  - L'interfaccia dove è presente il triangolo, deve anche presentare un bottone di reset e uno di salvataggio delle modifiche
+  - Il seguente applicativo probabilmente è già stato svolto da qualche altro programmatore, quindi questa non è la prima volta che         viene creato il seguente programma, sicuramente ci saranno differenze nel codice sorgente
   - Gli utenti che interagiscono con il programma non hanno bisogno di alcuna conoscenza tecnica
-  - Bisogna avere una buona conoscenza di java, o javascript nel caso si utilizzi questo linguaggio, per fare il programma
-
-   -   Quale è e come è organizzato il contesto in cui il prodotto dovrà
-       funzionare?
-
-  -   Come viene risolto attualmente il problema? Esiste già un prodotto
-      simile?
-
-  -   Chi sono gli utenti? Che bisogni hanno? Come e dove lavorano?
-
-  -   Che competenze/conoscenze/cultura posseggono gli utenti in relazione
-      con il problema?
-
-  -   Esistono convenzioni/standard applicati nel dominio?
-
-  -   Che conoscenze teoriche bisogna avere/acquisire per poter operare
-      efficacemente nel dominio?
-
-  -   …
+  - Per il programmatore che implementa il seguente applicativo, deve avere una buona conoscenza di java, o javascript nel caso si           utilizzi questo linguaggio, per fare il programma
+  - 
   
 ### Analisi e specifica dei requisiti
 
@@ -86,7 +70,7 @@
   |----|------------|--------|----|------|
   |Req-1 |Il software deve essere scritto in JAVA o JS|1|1.0|-|
   |Req-2|Occorre l'utilizzo di un'interfaccia grafica|1|1.0|-|
-  |Req-3|La finistra dell'interfaccia è ridimensionabile, minimo 1024x768|1|1.0|-|
+  |Req-3|La finestra dell'interfaccia è ridimensionabile, minimo 1024x768|1|1.0|-|
   |Req-4|Deve esistere un sito con la descrizione del software|1|1.0|-|
   |Req-5|Deve essere possibile scaricare il software dal sito|1|1.0|-|
   |Req-6|Il software deve avere un'interfaccia grafica (jframe o frame)|1|1.0|-|
@@ -105,24 +89,6 @@
   |Req-19|I punti potranno essere importati tramite esplora file|1|1.0|-|
   |Req-20|È possibile switchare tra creazione/eliminazione punto tramite un bottone 'creazione/eliminazione'|2|1.0|-|
 
-  1.  Il programma deve poter presentare un interfaccia grafica all'utente per permettergli di interagire con il programma
-  2.  La schermata deve presentare un triangolo
-  3.  L'utente deve avere la possibilità di "tagliare" il triangolo a proprio piacimento
-  4. I tagli del triangolo devono essere fatti con il mouse
-  5.  I colori utilizzati per lo sfondo della schermata e per il triangolo, devono essere differenti
-  6.  Quando l'utente schiaccia all'interno della schermata, deve apparire un puntino distinguibile nello stesso punto in cui viene             eseguita l'azione
-  7.  L'utente deve avere la possibilità di spostare o eliminare a proprio piacimento i puntini che ha già piazzato in precedenza
-  8.  Devono essere disponibili in schermata due pulsanti, sempre disinguibili, per permettere di resettare i "tagli" oppure salvarli
-  9.  Una volta salvato il sistema di taglio, deve apparire la schermata con il relativo triangolo tagliato e stampato per 8 volte in
-      modo da formare una forma ottagonale, così da sembrare un fiocco di neve
-  10.  L'applicativo deve permettere di salvare i punti di taglio per permettere modifiche o rigenerazioni future
-  11. L'applicativo deve salvare la figura del fiocco di neve generato in formato raster e vettoriale, preferibilmente in formati PNG e       SVG (la dimenosione dell'immmagine è scelta libera dell'utente)
-  12. L'applicativo deve essere scritto in java o javascript
-  13. Se JAVA: deve esistere un sito con descrizione software e deve essere possibile scaricare il software
-  14. Se JAVASCRIPT: Deve esserci un sito web che ospiti l'applicativo
-
- Una volta eseguito il programma
-
   In base alla lista dei requisiti e all’analisi degli stessi, il
   progettista redige una *specifica dei requisiti* in cui elenca e
   descrive in modo dettagliato quali sono le funzionalità che il prodotto
@@ -133,19 +99,6 @@
   considerati cruciali. Non si deve scordare che i requisiti non
   rappresentano delle attività bensì delle caratteristiche che il prodotto
   dovrà possedere.
-
-
-
-
-  |**ID**	|**Nome**			|**Priorità**|**Vers**|**Note**  |
-  |----|------------|--------|----|------|
-  |Req-12|Dovrà esserci una maschera di login|1|1.0|...|
-  |Req-13|Si dovranno poter immettere nuovi allievi|1|1.0|...|
-  |Req-14|Dovrà essere possibile la ricerca di allievi|1|1.0|...|
-  
-  
-
-
 
 **Spiegazione elementi tabella dei requisiti:**
 
@@ -161,9 +114,6 @@ si definiscono al massimo di 2-3 livelli di priorità.
 
 **Versione**: indica la versione del requisito. Ogni modifica del
 requisito avrà una versione aggiornata.
-
-Sulla documentazione apparirà solamente l’ultima versione, mentre le
-vecchie dovranno essere inserite nei diari.
 
 **Note**: eventuali osservazioni importanti o riferimenti ad altri
 requisiti.
