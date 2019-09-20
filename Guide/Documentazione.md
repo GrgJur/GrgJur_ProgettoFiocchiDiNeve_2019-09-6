@@ -11,7 +11,7 @@
       
 ### Abstract
 
-  È stato creat un programma denominato "Fiocco di neve" che, quando viene eseguito, il programma presenta un frame dove è possibile       fare dei tagli ad un triangolo, in modo da poter creare e mostrare un fiocco di neve utilizzando il triangolo appena tagliato.
+  È stato creato un applicativo denominato "Fiocco di neve" che, quando viene eseguito, il programma presenta un frame dove è possibile       fare dei tagli ad un triangolo, in modo da poter creare e mostrare un fiocco di neve utilizzando il triangolo appena tagliato.
   In seguito è viene converitita una copia del fiocco generato, in un formato PNG o SVG.
   Infine viene inserito in un sito appositamente creato per questo, tutti i requisiti prestabiliti, con il link per installare il file     .jar dell'applicativo "Fiocco di neve" ed infine una serie di screenshot che hanno il ruolo di una mini guida per poter informare gli   utenti su come utilizzare il programma.
   L'applicativo è stato sviluppato con il linguaggio di java o javascript.
@@ -32,37 +32,20 @@
 
   |**ID**	|**Nome**			|**Priorità**|**Vers**|**Note**  |
   |----|------------|--------|----|------|
-  |Req-1 |Il software deve essere scritto in JAVA o JS|1|1.0|-|
-  |Req-2|Occorre l'utilizzo di un'interfaccia grafica|1|1.0|-|
-  |Req-3|La finestra dell'interfaccia è ridimensionabile, minimo 1024x768|1|1.0|-|
-  |Req-4|Deve esistere un sito con la descrizione del software|1|1.0|-|
-  |Req-5|Deve essere possibile scaricare il software dal sito|1|1.0|-|
-  |Req-6|Il software deve avere un'interfaccia grafica (jframe o frame)|1|1.0|-|
-  |Req-7|All'avvio deve essere mostrato il triangolo da ritagliare|1|1.0|-|
-  |Req-8|Il triangolo può ridimensionarsi in base alla grandezza dell'interfaccia (iniziale 50%)|1|1.0|-|
-  |Req-9|I tagli (punti) del triangolo devono poter essere fatti con il mouse|1|1.0|-|
-  |Req-10|I tagli (punti) del triangolo devono poter essere fatti con il mouse|1|1.0|-|
-  |Req-11|Deve essere possibile resettare i punti del ritaglio|1|1.0|-|
-  |Req-12|Deve esistere un tasto 'genera fiocco'|1|1.0|-|
-  |Req-13|La generazione del fiocco avvenire in tempo reale (anteprima con i punti attualmente messi)|2|1.0|-|
-  |Req-14|I punti devono poter essere spostati o rimossi |2|1.0|-|
-  |Req-15|Il lavoro deve poter essere salvato|1|1.0|-|
-  |Req-16|Il salvataggio del fiocco deve essere fatto in formato PNG o SVG tramite un bottone 'salva'|1|1.0|-|
-  |Req-17|Il salvataggio deve avere dimensioni definite dall'utente|1|1.0|-|
-  |Req-18|I punti devono essere salvabili in un file|1|1.0|-|
-  |Req-19|I punti potranno essere importati tramite esplora file|1|1.0|-|
-  |Req-20|È possibile switchare tra creazione/eliminazione punto tramite un bottone 'creazione/eliminazione'|2|1.0|-|
-
-  In base alla lista dei requisiti e all’analisi degli stessi, il
-  progettista redige una *specifica dei requisiti* in cui elenca e
-  descrive in modo dettagliato quali sono le funzionalità che il prodotto
-  fornirà. La specifica dovrebbe essere abbastanza dettagliata da poter
-  essere utilizzata come base per lo sviluppo, ma non troppo; ad esempio
-  non dovrebbe contenere dettagli di implementazione, o definizioni
-  dettagliate dell’interfaccia grafica a meno che questi non siano
-  considerati cruciali. Non si deve scordare che i requisiti non
-  rappresentano delle attività bensì delle caratteristiche che il prodotto
-  dovrà possedere.
+  |Req-1 |Il software deve essere scritto in JAVA|livello 1|1.0|-|
+  |Req-2|Deve esistere sito con descrizione software|livello 1|1.0|-|
+  |Req-3|Deve essere possibile scaricare il software|livello 1|1.0|-|
+  |Req-4|I tagli del triangolo devono poter essere fatti con il mouse|livello 1|1.0|-|
+  |Req-5|Deve esserci un'interfaccia grafica|livello 1|1.0|-|
+  |Req-6|L'area di lavoro deve essere un triangolo|livello 1|1.0|-|
+  |Req-7|Deve essere possibile resettare i punti registrati|livello 1|1.0|-|
+  |Req-8|Deve esistere il tasto genera fiocco|livello 1|1.0|-|
+  |Req-9|La generazione deve avvenire in tempo reale|livello 2|1.0|-|
+  |Req-10|I punti devono poter essere spostati o rimossi|livello 2|1.0|-|
+  |Req-11|Il lavoro deve poter essere salvato|livello 1|1.0|-|
+  |Req-12|Il salvataggio deve essere fatto in formato PNG o SVG|livello 1|1.0|-|
+  |Req-13|Il salvataggio deve avere dimensioni definite dall'utente|livello 1|1.0|-|
+  |Req-14|Deve essere possibile salvare i punti di taglio|livello 1|1.0|-|
 
 **Spiegazione elementi tabella dei requisiti:**
 
