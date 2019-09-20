@@ -11,58 +11,22 @@
       
 ### Abstract
 
-  E’ una breve e accurata rappresentazione dei contenuti di un documento,
-  senza notazioni critiche o valutazioni. Lo scopo di un abstract efficace
-  dovrebbe essere quello di far conoscere all’utente il contenuto di base
-  di un documento e metterlo nella condizione di decidere se risponde ai
-  suoi interessi e se è opportuno il ricorso al documento originale.
+  È stato creat un programma denominato "Fiocco di neve" che, quando viene eseguito, il programma presenta un frame dove è possibile       fare dei tagli ad un triangolo, in modo da poter creare e mostrare un fiocco di neve utilizzando il triangolo appena tagliato.
+  In seguito è viene converitita una copia del fiocco generato, in un formato PNG o SVG.
+  Infine viene inserito in un sito appositamente creato per questo, tutti i requisiti prestabiliti, con il link per installare il file     .jar dell'applicativo "Fiocco di neve" ed infine una serie di screenshot che hanno il ruolo di una mini guida per poter informare gli   utenti su come utilizzare il programma.
+  L'applicativo è stato sviluppato con il linguaggio di java o javascript.
 
-  Può contenere alcuni o tutti gli elementi seguenti:
-
-  -   **Background/Situazione iniziale**
-
-  -   **Descrizione del problema e motivazione**: Che problema ho cercato
-      di risolvere? Questa sezione dovrebbe includere l'importanza del
-      vostro lavoro, la difficoltà dell'area e l'effetto che potrebbe
-      avere se portato a termine con successo.
-
-  -   **Approccio/Metodi**: Come ho ottenuto dei progressi? Come ho
-      risolto il problema (tecniche…)? Quale è stata l’entità del mio
-      lavoro? Che fattori importanti controllo, ignoro o misuro?
-
-  -   **Risultati**: Quale è la risposta? Quali sono i risultati? Quanto è
-      più veloce, più sicuro, più economico o in qualche altro aspetto
-      migliore di altri prodotti/soluzioni?
-
-  Esempio di abstract:
-
-  > *As the size and complexity of today’s most modern computer chips
-  > increase, new techniques must be developed to effectively design and
-  > create Very Large Scale Integration chips quickly. For this project, a
-  > new type of hardware compiler is created. This hardware compiler will
-  > read a C++ program, and physically design a suitable microprocessor
-  > intended for running that specific program. With this new and powerful
-  > compiler, it is possible to design anything from a small adder, to a
-  > microprocessor with millions of transistors. Designing new computer
-  > chips, such as the Pentium 4, can require dozens of engineers and
-  > months of time. With the help of this compiler, a single person could
-  > design such a large-scale microprocessor in just weeks.*      
-      
 ### Scopo
 
-  Lo scopo del progetto è apprendere le conoscenze tecniche per portare avanti un progetto individualmente
+  Lo scopo del progetto è apprendere le conoscenze tecniche per portare avanti un progetto individualmente.
 
 ## Analisi
 
 ### Analisi del dominio
   
-  - Il programma viene svolto con java o javascript
-  - Verrà esposto un triangolo in una schermata e bisognerà cliccare in vari punti della schermata per poter "tagliare" il                   triangolo in vari modi
-  - L'interfaccia dove è presente il triangolo, deve anche presentare un bottone di reset e uno di salvataggio delle modifiche
-  - Il seguente applicativo probabilmente è già stato svolto da qualche altro programmatore, quindi questa non è la prima volta che         viene creato il seguente programma, sicuramente ci saranno differenze nel codice sorgente
-  - Gli utenti che interagiscono con il programma non hanno bisogno di alcuna conoscenza tecnica
-  - Per il programmatore che implementa il seguente applicativo, deve avere una buona conoscenza di java, o javascript nel caso si           utilizzi questo linguaggio, per fare il programma
-  - 
+  La scuola d'arti e mestieri di Trevano è l'ambiente di lavoro dove verrà svolto il progetto. Il programma deve essere svolto con il     linguaggio java o javascript. È stato utilizzato un mac con un virtual machine per poter sviluppare l'applicativo.
+  Non c'è stata alcuna informazioni riguardo altri programmatori che hanno sviluppato questo programma, ma probabilmente vista la bassa   difficoltà del programma, altri programmatori avranno già provato a creare un codice simile. L'utente che andrà ad utilizzare il         seguente applicativo non necessità di nessuna specifica tecnica avanzata, necessiterà magari di una piccola guida che aiuti l'utente     ad orientarsi. A differenza dell'utente, il programmatore che deve sviluppare il programma, è obbligato a conoscere delle determinate   nozioni di java o javascript per poter fare il proprio lavoro. Come ogni progetto, si hanno dei requisiti da rispettare per poter       svolgere un buon lavoro, e questi requisiti variano a seconda di cosa vuole il cliente.
+
   
 ### Analisi e specifica dei requisiti
 
