@@ -76,18 +76,31 @@ funzionalità del prodotto.
 
 ### Pianificazione
 
-Prima di stabilire una pianificazione bisogna avere almeno una vaga idea
-del modello di sviluppo che si intende adottare. In questa sezione
-bisognerà inserire il modello concettuale di sviluppo che si seguirà
-durante il progetto. Gli elementi di riferimento per una buona
-pianificazione derivano da una scomposizione top-down della problematica
-del progetto.
+ La pianificazione del progetto è stata fatta con un diagramma di Gantt.
+ Ecco in ordine gli incarichi da svolgere:
+  - Analisi
+    - Analisi dei requisiti per l'applicativo da sviluppare
+    - Formulazione di domande al cliente per possibili fraintendimenti dei requisiti
+  - Preparazione dell'ambiente di lavoro
+    - Creazione del Gantt
+    - Creazione di una repository dove tenere tutti i file
+    - Sistemazione delle cartelle e dei file all'interno della repository
+    - Creazione di una macchina virtuale
+    - Installazione di Github Desktop nella macchina virtuale
+    - Configurazione di Github Desktop con Github di rete
+  - Sviluppo dell'applicativo
+    - Creazione del JPanel
+    - Creazione dell'interfaccia grafica
+    - Gestione dei puntini
+    - Gestione triangolo tagliato
+    - Gestione formato del fiocco
+    - Test dell'applicativo (svolto in contemporanea con lo sviluppo dell'applicativo)
+  - Integrazione
+    - Creazione del sito
+    - Integrazione di tutti i file sul sito
 
-La pianificazione può essere rappresentata mediante un diagramma di
-Gantt.
+ Infine gli ultimi due incarichi sono la documentazione e i diari, questi due incarichi a differenza degli altri, iniziano e finiscono     in contemporanea con il progetto in generale, siccome essi vengono aggiornati ogni volta che il progetto è stato modificato o ampliato
 
-Se si usano altri metodi di pianificazione (es scrum), dovranno apparire
-in questo capitolo.
 
 ### Analisi dei mezzi
 
