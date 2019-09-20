@@ -1,4 +1,3 @@
-
 # Fiocchi di neve | Diario di lavoro
 ### Jure Grgic
 
