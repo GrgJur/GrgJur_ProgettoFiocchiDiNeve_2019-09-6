@@ -18,7 +18,7 @@
 
 ### Scopo
 
-  Lo scopo del progetto è apprendere le conoscenze tecniche per portare avanti un progetto individualmente.
+  Lo scopo del progetto è apprendere le conoscenze tecniche per portare avanti un progetto individualmente. Oltretutto serve per poterci   ambientare già nel mondo del lavoro e per far si che in caso di difficoltà, proviamo a trovare una soluzione da soli.
 
 ## Analisi
 
@@ -72,7 +72,7 @@ requisiti.
 ### Use case
 
 | utente | Apertura dell'applicativo | 
-| utente | caricamento |
+| utente | caricamento | Triangolo visibile |
 
 ### Pianificazione
 
