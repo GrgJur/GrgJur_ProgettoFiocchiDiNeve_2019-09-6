@@ -71,8 +71,10 @@ requisiti.
 -----------------------------------------------------------
 ### Use case
 
-| utente | Apertura dell'applicativo | 
-| utente | caricamento | Triangolo visibile |
+utente -> Apertura dell'applicativo  
+utente -> Caricamento -> Triangolo visibile -> Interazione con l'applicativo 
+utente -> Fine ritaglio -> Conferma forma -> Visualizzazione risultato -> Salvataggio immagine
+utente -> Fine o riavvio dell'applicativo
 
 ### Pianificazione
 
@@ -99,12 +101,12 @@ requisiti.
     - Creazione del sito
     - Integrazione di tutti i file sul sito
 
- Infine gli ultimi due incarichi sono la documentazione e i diari, questi due incarichi a differenza degli altri, iniziano e finiscono     in contemporanea con il progetto in generale, siccome essi vengono aggiornati ogni volta che il progetto è stato modificato o ampliato
+ Infine gli ultimi due incarichi sono la documentazione e i diari, questi due incarichi a differenza degli altri, iniziano e finiscono     in contemporanea con il progetto in generale, siccome essi vengono appunto aggiornati ogni volta che il progetto è stato modificato o   ampliato, rimanendo attivi per tutta la durata del progetto.
 
 
 ### Analisi dei mezzi
 
-Il progetto è stato svolto unicamente con la versione 10.12.5 del macOS Sierra, appartenente all'aula 422, della scuola d'arti e mestieri di Trevano. Per salvare i file è stato utilizzato come "magazzino" Github e Github Desktop. Per fare sviluppare il programma invece è stato utilizzato l'editor NetBeans versione 11.1. Il Gantt è stato creato grazie alla versione 1.9.1 di ProjectLibre. 
+Il progetto è stato svolto con la versione 10.12.5 del macOS Sierra, appartenente all'aula 422, della scuola d'arti e mestieri di Trevano e con la versione 10.13.6 del macOS High Sierra, il mio computer personale. Per salvare i file è stato utilizzato come "magazzino" Github e Github Desktop. Per sviluppare il programma invece è stato utilizzato l'editor NetBeans versione 11.1. Il Gantt è stato creato grazie alla versione 1.9.1 di ProjectLibre. 
 
 ## Progettazione
 
