@@ -18,7 +18,7 @@
 
 ### Scopo
 
-  Lo scopo del progetto è apprendere le conoscenze tecniche per portare avanti un progetto individualmente.
+  Lo scopo del progetto è apprendere le conoscenze tecniche per portare avanti un progetto individualmente. Oltretutto serve per poterci   ambientare già nel mondo del lavoro e per far si che in caso di difficoltà, proviamo a trovare una soluzione da soli.
 
 ## Analisi
 
@@ -32,7 +32,7 @@
 
   |**ID**	|**Nome**			|**Priorità**|**Vers**|**Note**  |
   |----|------------|--------|----|------|
-  |Req-1 |Il software deve essere scritto in JAVA|livello 1|1.0|-|
+  |Req-1|Il software deve essere scritto in JAVA|livello 1|1.0|-|
   |Req-2|Deve esistere sito con descrizione software|livello 1|1.0|-|
   |Req-3|Deve essere possibile scaricare il software|livello 1|1.0|-|
   |Req-4|I tagli del triangolo devono poter essere fatti con il mouse|livello 1|1.0|-|
@@ -71,8 +71,8 @@ requisiti.
 -----------------------------------------------------------
 ### Use case
 
-I casi d’uso rappresentano l’interazione tra i vari attori e le
-funzionalità del prodotto.
+| utente | Apertura dell'applicativo | 
+| utente | caricamento | Triangolo visibile |
 
 ### Pianificazione
 
