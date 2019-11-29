@@ -108,11 +108,20 @@ Il progetto è stato svolto con la versione 10.12.5 del macOS Sierra, appartenen
 
 ## Progettazione
 
-
-
 ### Design dell’architettura del sistema
-
-
+Il tutto parte dalla classe FioccoDiNeve.java, questa classe utilizza FioccoDiNeveFrame.java come interfaccia grafica, dove appunto verrà disegnato il fiocco di neve.
+La classe FioccoDiNeve.java estende il JPanel, che permette appunto di passare a FioccoDiNeveFrame.java, grazie al metodo paintComponent; inoltre implementa MouseListener e MouseMotionListener, necessari per poter interagire con l'applicazione.
+I metodi di MouseListener e MouseMotionListener che vengono utilizzati sono mouseClicked e mouseDragged.
+Sono presenti tre liste per il salvataggio dei punti/poligoni di ritaglio: 
+ - la lista "percentages" che si occupa di salvare la posizione in percentuale dei puntini dell'attuale poligono che si sta creando, ciò viene permesso grazie ad una classe esterna: PuntoDouble.java
+ - la lista "listeDiPunti" che contiene tutte le liste percentages create (che formano appunto un poligono di ritaglio)
+ - la lista "polygons", dove vengono presi tutti i punti creati e uniti per formare i vari poligoni, per poi salvare qui dentro
+Oltretutto sono presenti altri 5 metodi:
+ - Il metodo "generateSnowFlake", è un semplice metodo per la generazione del fiocco di neve
+ - Il metodo "clickedArea", anch'esso è un semplice metodo che controlla se il mouse clicca all'interno dell'area determinata (area blu)
+ - Il metodo "isOver" che controlla se il mouse ha cliccato un determinato puntino creato in precedenza
+ - Il metodo "closedPolygon" che controlla se il mouse ha cliccato il puntino di origine di un poligono di ritaglio
+ - Infine il metodo "resetLists", resetta tutte le liste, ovvero "percentages", "listeDiPunti" e "polygons"
 
 ### Design dei dati e database
 
@@ -157,16 +166,6 @@ Il progetto è stato svolto con la versione 10.12.5 del macOS Sierra, appartenen
   
   
 ### Considerazioni personali
-  
-  
-  
-## Bibliografia
-
-### Bibliografia per articoli di riviste
-
-
-
-### Bibliografia per libri
 
 
 ### Sitografia
