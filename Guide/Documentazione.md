@@ -123,11 +123,11 @@ Oltretutto sono presenti altri 5 metodi:
  - Il metodo "closedPolygon" che controlla se il mouse ha cliccato il puntino di origine di un poligono di ritaglio
  - Infine il metodo "resetLists", resetta tutte le liste, ovvero "percentages", "listeDiPunti" e "polygons"
 
-### Design dei dati e database
-
-
-
 ### Schema E-R, schema logico e descrizione.
+
+![alt text](https://i.ibb.co/YycNn2t/Schermata-2019-12-01-alle-17-16-30.png "ER")
+
+
 
 
 
