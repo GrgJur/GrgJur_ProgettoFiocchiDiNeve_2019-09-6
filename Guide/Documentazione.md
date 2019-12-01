@@ -127,7 +127,7 @@ Oltretutto sono presenti altri 5 metodi:
 
 ![alt text](https://i.ibb.co/YycNn2t/Schermata-2019-12-01-alle-17-16-30.png "ER")
 
-
+La classe principale (FioccoDiNeve), contiene buona parte del mio codice. Per usare per poter funzionare però ho docuto implementare MouseListener e MouseMotionListener. Inoltre ho esteso il JPanel, in modo da poter disegnare e passare il paint al frame (FioccoDiNeveFrame). Infine è presente la classe PuntoDouble, che è un aggreggante della classe principale (FioccoDiNeve).
 
 
 
