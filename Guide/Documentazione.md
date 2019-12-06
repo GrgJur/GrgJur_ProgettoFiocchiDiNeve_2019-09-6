@@ -166,15 +166,18 @@ Se è presente un poligono di ritaglio incompleto mentre si schiaccia il pulsant
 
 ## Conclusioni
 
-
 ### Sviluppi futuri
-  
+ - Si potrebbe far decidere all'utente il numero di spicchi del fiocco di neve
+ - Dar la possibilità all'utente di scegliere il colore del fiocco di neve
+ - Dare più possibilità di scelta del triangolo base (nel senso che non per forzas deve essere un triangolo, ma potrebbe essere anche un quadrato o un cerchio, di conseguenza la forma finale logicamente può variare rispetto al fiocco di neve originale)
   
   
 ### Considerazioni personali
+Questo è stato il mio primo progetto serio che abbia mai fatto. Come primo progetto è stato parecchio difficile e noioso, però allo stesso tempo soddisfacente. Ho capito che fare un progetto così "grande" da soli non è per niente bello, preferisco fare un lavoro di gruppo in questo caso. Magari il fatto di aver trovato noioso questo progetto è dovuto al tipo di progetto che ci è stato assegnato (fiocco di neve).
 
 
 ### Sitografia
+
 ## Allegati
 
 
