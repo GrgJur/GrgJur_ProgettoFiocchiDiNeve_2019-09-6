@@ -133,6 +133,7 @@ La classe principale (FioccoDiNeve), contiene buona parte del mio codice. Per us
 
 ### Design delle interfacce
 
+L'interfaccia iniziale dovrebbe presentare il triangolo base da ritagliare al centro del frame. Ci deve essere un area dove poter creare i poligoni di ritaglio (quest'area può essere distinta grazie ad un colore diverso rispetto all'area esterna ad essa). Nell'area esterna saranno presenti i pulsanti che permetteranno di fare determinate azioni.
 
 
 ### Design procedurale
@@ -152,6 +153,11 @@ La classe principale (FioccoDiNeve), contiene buona parte del mio codice. Per us
 
 
 ### Mancanze/limitazioni conosciute
+Non sono presenti i pulsanti per il salvataggio dei punti correnti e per il caricamento di un file di punti.
+Non si può tagliare e incollare un puntino, solo eliminarlo, spostarlo o crearne uno nuovo.
+Non è presente un anteprima del fiocco di neve generato.
+Una volta che un poligono di ritaglio è stato generato, non si può più modificare la sua struttura.
+Se è presente un poligono di ritaglio incompleto mentre si schiaccia il pulsante "generate", esso non verrà preso in considerazione
 
 
 ## Consuntivo
@@ -169,7 +175,6 @@ La classe principale (FioccoDiNeve), contiene buona parte del mio codice. Per us
 
 
 ### Sitografia
-
-
 ## Allegati
+
 
