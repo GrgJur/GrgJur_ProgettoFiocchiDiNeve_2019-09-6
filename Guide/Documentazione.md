@@ -133,7 +133,7 @@ La classe principale (FioccoDiNeve), contiene buona parte del mio codice. Per us
 
 ### Design delle interfacce
 
-L'interfaccia iniziale dovrebbe presentare il triangolo base da ritagliare al centro del frame. Ci deve essere un area dove poter creare i poligoni di ritaglio (quest'area può essere distinta grazie ad un colore diverso rispetto all'area esterna ad essa). Nell'area esterna saranno presenti i pulsanti che permetteranno di fare determinate azioni.
+L'interfaccia iniziale dovrebbe presentare il triangolo base da ritagliare al centro del frame. Ci deve essere un area dove poter creare i poligoni di ritaglio (quest'area può essere distinta grazie ad un colore diverso rispetto all'area esterna ad essa). Nell'area esterna saranno presenti i pulsanti che permetteranno di fare determinate azioni, nella parte bassa saranno presenti i pulsanti di reset e generazione del fiocco di neve, a destra i pulsanti per salvar e caricare i puntini e a sinistra il pulsanti per tagliare e incollare i puntini di ritaglio. Nell'area esterna alta ci sarà il nome del programma.
 
 
 ### Design procedurale
