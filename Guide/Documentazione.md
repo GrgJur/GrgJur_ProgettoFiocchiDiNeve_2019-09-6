@@ -185,7 +185,7 @@ Il fiocco di neve generato non è responsive, è corretto solo se messo alle dim
 
 ## Consuntivo
 
-![alt text](https://i.ibb.co/kGDGbkC/sdcs.png | width=100)
+![alt text](https://i.ibb.co/kGDGbkC/sdcs.png)
 
 ## Conclusioni
 
