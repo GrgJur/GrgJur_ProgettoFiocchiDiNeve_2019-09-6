@@ -173,7 +173,7 @@ Non si può salvare il fiocco di neve.
 
 ## Consuntivo
 
-foto gantt
+![alt text](https://i.ibb.co/kGDGbkC/sdcs.png)
 
 ## Conclusioni
 
