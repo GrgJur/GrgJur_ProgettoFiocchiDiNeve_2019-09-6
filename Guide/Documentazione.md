@@ -193,6 +193,8 @@ Mi sono limitato a fare le basi del programma, senza andare a implementare tutti
 Voto documentazione: 8.
 Credo di aver svolto una buona documentazione.
 Voto del progetto (cioè quanto mi è piaciuto): 5.
+
+
 Non è stato proprio divertente o interessante, ma neanche così brutto.
 
 
