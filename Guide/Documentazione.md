@@ -116,15 +116,17 @@ Sono presenti tre liste per il salvataggio dei punti/poligoni di ritaglio:
  - la lista "percentages" che si occupa di salvare la posizione in percentuale dei puntini dell'attuale poligono che si sta creando, ciò viene permesso grazie ad una classe esterna: PuntoDouble.java
  - la lista "listeDiPunti" che contiene tutte le liste percentages create (che formano appunto un poligono di ritaglio)
  - la lista "polygons", dove vengono presi tutti i punti creati e uniti per formare i vari poligoni, per poi salvare qui dentro
-Oltretutto sono presenti altri 5 metodi:
+Oltretutto sono presenti altri metodi:
  - Il metodo "generateSnowFlake", è un semplice metodo per la generazione del fiocco di neve
  - Il metodo "clickedArea", anch'esso è un semplice metodo che controlla se il mouse clicca all'interno dell'area determinata (area blu)
  - Il metodo "isOver" che controlla se il mouse ha cliccato un determinato puntino creato in precedenza
  - Il metodo "closedPolygon" che controlla se il mouse ha cliccato il puntino di origine di un poligono di ritaglio
  - Il metodo "resetLists", resetta tutte le liste, ovvero "percentages", "listeDiPunti" e "polygons"
- - Il metodo "generated" indica se il fiocco è generato o meno
+ - Il metodo "generated", serve per generare il fiocco di neve
+ - il metodo "saveImage", serve per salvare il fiocco di neve in formato png
+ - il metodo "isGenerated", che controlla se il fiocco è generato o meno
 
-### Schema E-R, schema logico e descrizione.
+### Diagramma delle classi e descrizione.
 
 ![alt text](https://i.ibb.co/YycNn2t/Schermata-2019-12-01-alle-17-16-30.png)
 
@@ -140,10 +142,10 @@ L'interfaccia iniziale dovrebbe presentare il triangolo base da ritagliare al ce
 
 ### Design procedurale
 
-
+********diagramma di flusso*********
 
 ## Implementazione
-scritto in progettazione, devo scrivere la progettazione ancora
+*******************
 
 ## Test
 
@@ -153,13 +155,24 @@ controllo funzionalità punti dei poligoni di ritaglio
  - test 01 | creazione di un punto
  - test 02 | spostamento di un punto
  - test 03 | eliminazione di un punto
+controllo responsive punti, triangolo base, poligoni e fiocco di neve
+ - test 04 | resize dei puntini
+ - test 05 | resize dei poligoni di ritaglio
+ - test 06 | resize del triangolo di base
+ - test 07 | resize del fiocco di neve
+
 
 ### Risultati test
 
-risultati funzionalità punti dei poligoni di ritaglio
- - risultato test 01 | funzionante: il punto viene creato con il click destro del mouse
- - risultato test 02 | funzionante: il punto viene spostato trascinando il punto schiacciando la rotellina centrale del mouse
- - risultato test 03 | funzionante: il punto viene eliminato con il click sinistro del mouse
+risultati controllo funzionalità punti dei poligoni di ritaglio
+ - esito test 01 | funzionante: il punto viene creato con il click destro del mouse
+ - esito test 02 | funzionante: il punto viene spostato trascinando il punto schiacciando la rotellina centrale del mouse
+ - esito test 03 | funzionante: il punto viene eliminato con il click sinistro del mouse
+risultati controllo responsive punti, triangolo base, poligoni e fiocco di neve
+ - esito test 04 | funzionante: i puntini creati si spostano in maniera corretta, a dipendenza della dimensione della schermata
+ - esito test 05 | funzionante: i poligoni di ritaglio si ridimensionano correttamente
+ - esito test 06 | funzionante: il triangolo di base si ridemensiona correttamente
+ - esito test 07 | non funzionante: il fiocco di neve non possiede un responsive corretto, solo alle dimensioni 1024x768 ha la giusta forma
 
 ### Mancanze/limitazioni conosciute
 Non sono presenti i pulsanti per il salvataggio dei punti correnti e per il caricamento di un file di punti.
@@ -167,13 +180,12 @@ Non si può tagliare e incollare un puntino, solo eliminarlo, spostarlo o crearn
 Non è presente un anteprima del fiocco di neve generato.
 Una volta che un poligono di ritaglio è stato generato, non si può più modificare la sua struttura.
 Se è presente un poligono di ritaglio incompleto mentre si schiaccia il pulsante "generate", esso non verrà preso in considerazione.
-Il fiocco di neve generato non è responsive, è corretto solo se messo alle dimensioni minime consentite (1024x768).
-Non si può salvare il fiocco di neve.
+Il fiocco di neve generato non è responsive, è corretto solo se messo alle dimensioni minime consentite (1024x768), per coprire questa mancanza ho settato a 1024x768 e fatto in modo che non si potesse ridimensionare la schermata.
 
 
 ## Consuntivo
 
-![alt text](https://i.ibb.co/kGDGbkC/sdcs.png width="200" height="400")
+![alt text](https://i.ibb.co/kGDGbkC/sdcs.png | width=100)
 
 ## Conclusioni
 
