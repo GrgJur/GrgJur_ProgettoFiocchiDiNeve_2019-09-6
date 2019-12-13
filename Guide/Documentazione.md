@@ -148,7 +148,10 @@ scritto in progettazione, devo scrivere la progettazione ancora
 
 ### Protocollo di test
 
- - test 01 | efe 
+controllo funzionalità punti dei poligoni di ritaglio
+ - test 01 | creazione di un punto
+ - test 02 | spostamento di un punto
+ - test 03 | eliminazione di un punto
 
 ### Risultati test
 
@@ -158,7 +161,9 @@ Non sono presenti i pulsanti per il salvataggio dei punti correnti e per il cari
 Non si può tagliare e incollare un puntino, solo eliminarlo, spostarlo o crearne uno nuovo.
 Non è presente un anteprima del fiocco di neve generato.
 Una volta che un poligono di ritaglio è stato generato, non si può più modificare la sua struttura.
-Se è presente un poligono di ritaglio incompleto mentre si schiaccia il pulsante "generate", esso non verrà preso in considerazione
+Se è presente un poligono di ritaglio incompleto mentre si schiaccia il pulsante "generate", esso non verrà preso in considerazione.
+Il fiocco di neve generato non è responsive, è corretto solo se messo alle dimensioni minime consentite (1024x768).
+Non si può salvare il fiocco di neve.
 
 
 ## Consuntivo
@@ -170,15 +175,14 @@ foto gantt
 ### Sviluppi futuri
  - Si potrebbe far decidere all'utente il numero di spicchi del fiocco di neve
  - Dar la possibilità all'utente di scegliere il colore del fiocco di neve
- - Dare più possibilità di scelta del triangolo base (nel senso che non per forzas deve essere un triangolo, ma potrebbe essere anche un quadrato o un cerchio, di conseguenza la forma finale logicamente può variare rispetto al fiocco di neve originale)
+ - Dare più possibilità di scelta del triangolo base (nel senso che non per forza deve essere un triangolo, ma potrebbe essere anche un quadrato o un cerchio, di conseguenza la forma finale logicamente può variare rispetto al fiocco di neve originale)
   
   
 ### Considerazioni personali
-Questo è stato il mio primo progetto serio che abbia mai fatto. Come primo progetto è stato parecchio difficile e noioso, però allo stesso tempo soddisfacente. Ho capito che fare un progetto così "grande" da soli non è per niente bello, preferisco fare un lavoro di gruppo in questo caso. Magari il fatto di aver trovato noioso questo progetto è dovuto al tipo di progetto che ci è stato assegnato (fiocco di neve).
+Questo è stato il mio primo progetto serio che abbia mai fatto. Come primo progetto è stato parecchio difficile e noioso, però allo stesso tempo soddisfacente. Ho capito che fare un progetto così "grande" da soli non è per niente semplice, preferisco fare un lavoro di gruppo in questo caso. Magari il fatto di aver trovato noioso questo progetto è dovuto al tipo di progetto che ci è stato assegnato (fiocco di neve). Però, pur se avrei preferito lavorare con un gruppo in questo caso, non mi piacciono tanto i lavori di gruppo.
 
 
 ### Sitografia
-
 ## Allegati
 
 
