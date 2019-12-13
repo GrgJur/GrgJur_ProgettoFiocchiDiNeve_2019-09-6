@@ -186,19 +186,13 @@ foto gantt
   
   
 ### Considerazioni personali
-Questo è stato il mio primo progetto serio che abbia mai fatto. Come primo progetto è stato parecchio difficile e noioso, però allo stesso tempo soddisfacente. Ho capito che fare un progetto così "grande" da soli non è per niente semplice, preferisco fare un lavoro di gruppo in questo caso. Magari il fatto di aver trovato noioso questo progetto è dovuto al tipo di progetto che ci è stato assegnato (fiocco di neve). Però, pur se avrei preferito lavorare con un gruppo in questo caso, non mi piacciono tanto i lavori di gruppo.
-*Mie opinioni*
-
-Voto di realizzazione del programma (come io l'ho realizzato): 6.
-
-Mi sono limitato a fare le basi del programma, senza andare a implementare tutti i dettaglio, come per esempio il responsive per il fiocco di neve oppure il pulsante di salvataggio dei punti.
-
-Voto documentazione: 8.
-
-Credo di aver svolto una buona documentazione.
-
-Voto del progetto (cioè quanto mi è piaciuto): 5.
-
+Questo è stato il mio primo progetto serio che abbia mai fatto. Come primo progetto è stato parecchio difficile e noioso, però allo stesso tempo soddisfacente. Ho capito che fare un progetto così "grande" da soli non è per niente semplice, preferisco fare un lavoro di gruppo in questo caso. Magari il fatto di aver trovato noioso questo progetto è dovuto al tipo di progetto che ci è stato assegnato (fiocco di neve). Però, pur se avrei preferito lavorare con un gruppo in questo caso, non mi piacciono tanto i lavori di gruppo.        
+*Mie opinioni*                                                                                                                           
+Voto di realizzazione del programma (come io l'ho realizzato): 6.                                                                       
+Mi sono limitato a fare le basi del programma, senza andare a implementare tutti i dettaglio, come per esempio il responsive per il fiocco di neve oppure il pulsante di salvataggio dei punti.                                                                             
+Voto documentazione: 8.                                                                                                                 
+Credo di aver svolto una buona documentazione.                                                                                          
+Voto del progetto (cioè quanto mi è piaciuto): 5.                                                                                      
 Non è stato proprio divertente o interessante, ma neanche così brutto.
 
 
