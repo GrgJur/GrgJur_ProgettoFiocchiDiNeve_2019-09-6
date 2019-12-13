@@ -125,7 +125,7 @@ Oltretutto sono presenti altri 5 metodi:
 
 ### Schema E-R, schema logico e descrizione.
 
-![alt text](https://i.ibb.co/YycNn2t/Schermata-2019-12-01-alle-17-16-30.png "ER")
+![alt text](https://i.ibb.co/YycNn2t/Schermata-2019-12-01-alle-17-16-30.png)
 
 La classe principale (FioccoDiNeve), contiene buona parte del mio codice. Per usare per poter funzionare però ho docuto implementare MouseListener e MouseMotionListener. Inoltre ho esteso il JPanel, in modo da poter disegnare e passare il paint al frame (FioccoDiNeveFrame). Infine è presente la classe PuntoDouble, che è un aggreggante della classe principale (FioccoDiNeve).
 
@@ -135,20 +135,20 @@ La classe principale (FioccoDiNeve), contiene buona parte del mio codice. Per us
 
 L'interfaccia iniziale dovrebbe presentare il triangolo base da ritagliare al centro del frame. Ci deve essere un area dove poter creare i poligoni di ritaglio (quest'area può essere distinta grazie ad un colore diverso rispetto all'area esterna ad essa). Nell'area esterna saranno presenti i pulsanti che permetteranno di fare determinate azioni, nella parte bassa saranno presenti i pulsanti di reset e generazione del fiocco di neve, a destra i pulsanti per salvar e caricare i puntini e a sinistra il pulsanti per tagliare e incollare i puntini di ritaglio. Nell'area esterna alta ci sarà il nome del programma.
 
-![]()
+![alt text](https://i.ibb.co/KXs7Vgq/demo.png)
 
 ### Design procedurale
 
 
 
 ## Implementazione
-
+scritto in progettazione, devo scrivere la progettazione ancora
 
 ## Test
 
 ### Protocollo di test
 
-
+ - test 01 | efe 
 
 ### Risultati test
 
@@ -163,7 +163,7 @@ Se è presente un poligono di ritaglio incompleto mentre si schiaccia il pulsant
 
 ## Consuntivo
 
-
+foto gantt
 
 ## Conclusioni
 
