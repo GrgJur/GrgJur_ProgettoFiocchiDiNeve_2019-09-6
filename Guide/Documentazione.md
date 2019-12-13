@@ -71,7 +71,7 @@ requisiti.
 
 utente -> Apertura dell'applicativo  
 utente -> Caricamento -> Triangolo visibile -> Interazione con l'applicativo  
-utente -> Fine ritaglio -> Conferma forma -> Visualizzazione risultato -> Salvataggio immagine  
+utente -> Fine ritaglio -> Conferma forma -> Visualizzazione risultato  
 utente -> Fine o riavvio dell'applicativo  
 
 ### Pianificazione
@@ -121,13 +121,14 @@ Oltretutto sono presenti altri 5 metodi:
  - Il metodo "clickedArea", anch'esso è un semplice metodo che controlla se il mouse clicca all'interno dell'area determinata (area blu)
  - Il metodo "isOver" che controlla se il mouse ha cliccato un determinato puntino creato in precedenza
  - Il metodo "closedPolygon" che controlla se il mouse ha cliccato il puntino di origine di un poligono di ritaglio
- - Infine il metodo "resetLists", resetta tutte le liste, ovvero "percentages", "listeDiPunti" e "polygons"
+ - Il metodo "resetLists", resetta tutte le liste, ovvero "percentages", "listeDiPunti" e "polygons"
+ - Il metodo "generated" indica se il fiocco è generato o meno
 
 ### Schema E-R, schema logico e descrizione.
 
 ![alt text](https://i.ibb.co/YycNn2t/Schermata-2019-12-01-alle-17-16-30.png)
 
-La classe principale (FioccoDiNeve), contiene buona parte del mio codice. Per usare per poter funzionare però ho docuto implementare MouseListener e MouseMotionListener. Inoltre ho esteso il JPanel, in modo da poter disegnare e passare il paint al frame (FioccoDiNeveFrame). Infine è presente la classe PuntoDouble, che è un aggreggante della classe principale (FioccoDiNeve).
+La classe principale (FioccoDiNeve), contiene buona parte del mio codice. Per poter funzionare però ho dovuto implementare MouseListener e MouseMotionListener. Inoltre ho esteso il JPanel, in modo da poter disegnare e passare il paint al frame (FioccoDiNeveFrame). Infine è presente la classe PuntoDouble, che è un aggreggante della classe principale (FioccoDiNeve).
 
 
 
@@ -155,6 +156,10 @@ controllo funzionalità punti dei poligoni di ritaglio
 
 ### Risultati test
 
+risultati funzionalità punti dei poligoni di ritaglio
+ - risultato test 01 | funzionante: il punto viene creato con il click destro del mouse
+ - risultato test 02 | funzionante: il punto viene spostato trascinando il punto schiacciando la rotellina centrale del mouse
+ - risultato test 03 | funzionante: il punto viene eliminato con il click sinistro del mouse
 
 ### Mancanze/limitazioni conosciute
 Non sono presenti i pulsanti per il salvataggio dei punti correnti e per il caricamento di un file di punti.
@@ -176,13 +181,23 @@ foto gantt
  - Si potrebbe far decidere all'utente il numero di spicchi del fiocco di neve
  - Dar la possibilità all'utente di scegliere il colore del fiocco di neve
  - Dare più possibilità di scelta del triangolo base (nel senso che non per forza deve essere un triangolo, ma potrebbe essere anche un quadrato o un cerchio, di conseguenza la forma finale logicamente può variare rispetto al fiocco di neve originale)
+ - Usare il fiocco di neve come tiro al bersaglio
+ - Creare il movimento di più fiocchi di neve che cadono dall'alto al basso, come se stesse nevicando
   
   
 ### Considerazioni personali
 Questo è stato il mio primo progetto serio che abbia mai fatto. Come primo progetto è stato parecchio difficile e noioso, però allo stesso tempo soddisfacente. Ho capito che fare un progetto così "grande" da soli non è per niente semplice, preferisco fare un lavoro di gruppo in questo caso. Magari il fatto di aver trovato noioso questo progetto è dovuto al tipo di progetto che ci è stato assegnato (fiocco di neve). Però, pur se avrei preferito lavorare con un gruppo in questo caso, non mi piacciono tanto i lavori di gruppo.
+*Mie opinioni*
+Voto di realizzazione del programma (come io l'ho realizzato): 6.
+Mi sono limitato a fare le basi del programma, senza andare a implementare tutti i dettaglio, come per esempio il responsive per il fiocco di neve oppure il pulsante di salvataggio dei punti.
+Voto documentazione: 8.
+Credo di aver svolto una buona documentazione.
+Voto del progetto (cioè quanto mi è piaciuto): 5.
+Non è stato proprio divertente o interessante, ma neanche così brutto.
 
 
 ### Sitografia
-## Allegati
 
+## Allegati
+link al sito del progetto
 
