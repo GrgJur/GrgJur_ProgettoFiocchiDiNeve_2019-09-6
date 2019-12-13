@@ -122,7 +122,6 @@ Oltretutto sono presenti altri metodi:
  - Il metodo "isOver" che controlla se il mouse ha cliccato un determinato puntino creato in precedenza
  - Il metodo "closedPolygon" che controlla se il mouse ha cliccato il puntino di origine di un poligono di ritaglio
  - Il metodo "resetLists", resetta tutte le liste, ovvero "percentages", "listeDiPunti" e "polygons"
- - Il metodo "generated", serve per generare il fiocco di neve
  - il metodo "saveImage", serve per salvare il fiocco di neve in formato png
  - il metodo "isGenerated", che controlla se il fiocco è generato o meno
 
