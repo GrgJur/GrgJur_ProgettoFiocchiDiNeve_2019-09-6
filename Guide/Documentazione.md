@@ -141,7 +141,7 @@ L'interfaccia iniziale dovrebbe presentare il triangolo base da ritagliare al ce
 
 ### Design procedurale
 
-![alt text](https://ibb.co/w0MXwm5/DiagrammaDiFlusso.png)
+![alt text](https://i.ibb.co/w0MXwm5/DiagrammaDiFlusso.png)
 
 ## Implementazione
 *******************
