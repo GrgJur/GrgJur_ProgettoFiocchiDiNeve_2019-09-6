@@ -141,7 +141,7 @@ L'interfaccia iniziale dovrebbe presentare il triangolo base da ritagliare al ce
 
 ### Design procedurale
 
-********diagramma di flusso*********
+![alt text](https://ibb.co/w0MXwm5/DiagrammaDiFlusso.png)
 
 ## Implementazione
 *******************
@@ -209,6 +209,4 @@ Non è stato proprio divertente o interessante, ma neanche così brutto.
 
 ### Sitografia
 
-## Allegati
-link al sito del progetto
 
