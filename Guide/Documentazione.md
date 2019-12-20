@@ -170,11 +170,13 @@ risultati controllo funzionalità punti dei poligoni di ritaglio
  - esito test 01 | funzionante: il punto viene creato con il click destro del mouse
  - esito test 02 | funzionante: il punto viene spostato trascinando il punto schiacciando la rotellina centrale del mouse
  - esito test 03 | funzionante: il punto viene eliminato con il click sinistro del mouse
+ 
 risultati controllo responsive punti, triangolo base, poligoni e fiocco di neve
  - esito test 04 | funzionante: i puntini creati si spostano in maniera corretta, a dipendenza della dimensione della schermata
  - esito test 05 | funzionante: i poligoni di ritaglio si ridimensionano correttamente
  - esito test 06 | funzionante: il triangolo di base si ridemensiona correttamente
  - esito test 07 | non funzionante: il fiocco di neve non possiede un responsive corretto, solo alle dimensioni 1024x768 ha la giusta forma
+ 
 risultati controllo salvataggio
  - esito test 08 | funzionante: è presente un bottone che permette il salvataggio in formato png del fiocco di neve
  - esito test 09 | funzionante: è presente un bottone che permette di resettare tutti i poligoni di ritaglio
@@ -191,7 +193,7 @@ Il fiocco di neve generato non è responsive, è corretto solo se messo alle dim
 
 ## Consuntivo
 
-![alt text](https://i.ibb.co/kGDGbkC/sdcs.png)
+![alt text](https://i.ibb.co/6yWkwSb/consuntivo)
 
 ## Conclusioni
 
