@@ -193,7 +193,7 @@ Il fiocco di neve generato non è responsive, è corretto solo se messo alle dim
 
 ## Consuntivo
 
-![alt text](https://i.ibb.co/6yWkwSb/consuntivo)
+![alt text](https://i.ibb.co/6yWkwSb/consuntivo.png)
 
 ## Conclusioni
 
