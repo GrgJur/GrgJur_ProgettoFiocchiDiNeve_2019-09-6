@@ -109,6 +109,27 @@ Il progetto è stato svolto con la versione 10.12.5 del macOS Sierra, appartenen
 ## Progettazione
 
 ### Design dell’architettura del sistema
+
+Dovranno essere presenti dei metodi che permettano la creazione dei puntini che andranno poi a formare tra loro i poligoni di ritaglio. Bisognerà adattare la posizione di ogni oggetto presente (puntini, rettangolo base, poligoni di ritaglio) in base alla dimensione del frame, e per farlo, utilizzò dei calcoli matematici con percentuali. I puntini creati verranno salvati in un apposita lista molto probabilmente. Servirà un metodo per controllare lo stato dei bottoni. Un altro metodo servirà invece per controllare i se viene creato un poligono. Infine un metodo che servirà per resettare tutti i puntini creati.
+
+### Diagramma delle classi e descrizione.
+
+![alt text](https://i.ibb.co/YycNn2t/Schermata-2019-12-01-alle-17-16-30.png)
+
+La classe principale (FioccoDiNeve), conterrà buona parte del mio codice. Per poter funzionare però dovrò implementare MouseListener e MouseMotionListener e forse anche altro a dipendenza delle necessità. Inoltre avrò bisogno di estendere il JPanel, in modo da poter disegnare e passare il paint al frame (FioccoDiNeveFrame). Infine è presente la classe PuntoDouble, che è un aggreggante della classe principale (FioccoDiNeve).
+
+### Design delle interfacce
+
+L'interfaccia iniziale dovrebbe presentare il triangolo base da ritagliare al centro del frame. Ci deve essere un area dove poter creare i poligoni di ritaglio (quest'area può essere distinta grazie ad un colore diverso rispetto all'area esterna ad essa). Nell'area esterna saranno presenti i pulsanti che permetteranno di fare determinate azioni, nella parte bassa saranno presenti i pulsanti di reset e generazione del fiocco di neve, a destra i pulsanti per salvar e caricare i puntini e a sinistra il pulsanti per tagliare e incollare i puntini di ritaglio. Nell'area esterna alta ci sarà il nome del programma.
+
+![alt text](https://i.ibb.co/KXs7Vgq/demo.png)
+
+### Diagramma di flusso
+
+![alt text](https://i.ibb.co/w0MXwm5/DiagrammaDiFlusso.png)
+
+## Implementazione
+
 Il tutto parte dalla classe FioccoDiNeve.java, questa classe utilizza FioccoDiNeveFrame.java come interfaccia grafica, dove appunto verrà disegnato il fiocco di neve.
 La classe FioccoDiNeve.java estende il JPanel, che permette appunto di passare a FioccoDiNeveFrame.java, grazie al metodo paintComponent; inoltre implementa MouseListener e MouseMotionListener, necessari per poter interagire con l'applicazione.
 I metodi di MouseListener e MouseMotionListener che vengono utilizzati sono mouseClicked e mouseDragged.
@@ -125,27 +146,6 @@ Oltretutto sono presenti altri metodi:
  - il metodo "saveImage", serve per salvare il fiocco di neve in formato png
  - il metodo "isGenerated", che controlla se il fiocco è generato o meno
 
-### Diagramma delle classi e descrizione.
-
-![alt text](https://i.ibb.co/YycNn2t/Schermata-2019-12-01-alle-17-16-30.png)
-
-La classe principale (FioccoDiNeve), contiene buona parte del mio codice. Per poter funzionare però ho dovuto implementare MouseListener e MouseMotionListener. Inoltre ho esteso il JPanel, in modo da poter disegnare e passare il paint al frame (FioccoDiNeveFrame). Infine è presente la classe PuntoDouble, che è un aggreggante della classe principale (FioccoDiNeve).
-
-
-
-### Design delle interfacce
-
-L'interfaccia iniziale dovrebbe presentare il triangolo base da ritagliare al centro del frame. Ci deve essere un area dove poter creare i poligoni di ritaglio (quest'area può essere distinta grazie ad un colore diverso rispetto all'area esterna ad essa). Nell'area esterna saranno presenti i pulsanti che permetteranno di fare determinate azioni, nella parte bassa saranno presenti i pulsanti di reset e generazione del fiocco di neve, a destra i pulsanti per salvar e caricare i puntini e a sinistra il pulsanti per tagliare e incollare i puntini di ritaglio. Nell'area esterna alta ci sarà il nome del programma.
-
-![alt text](https://i.ibb.co/KXs7Vgq/demo.png)
-
-### Design procedurale
-
-![alt text](https://i.ibb.co/w0MXwm5/DiagrammaDiFlusso.png)
-
-## Implementazione
-*******************
-
 ## Test
 
 ### Protocollo di test
@@ -159,7 +159,10 @@ controllo responsive punti, triangolo base, poligoni e fiocco di neve
  - test 05 | resize dei poligoni di ritaglio
  - test 06 | resize del triangolo di base
  - test 07 | resize del fiocco di neve
-
+controllo bottoni
+ - test 08 | bottone salvataggio del fiocco di neve
+ - test 09 | bottone reset dei punti
+ - test 10 | bottone genera fiocco di neve
 
 ### Risultati test
 
@@ -172,6 +175,10 @@ risultati controllo responsive punti, triangolo base, poligoni e fiocco di neve
  - esito test 05 | funzionante: i poligoni di ritaglio si ridimensionano correttamente
  - esito test 06 | funzionante: il triangolo di base si ridemensiona correttamente
  - esito test 07 | non funzionante: il fiocco di neve non possiede un responsive corretto, solo alle dimensioni 1024x768 ha la giusta forma
+risultati controllo salvataggio
+ - esito test 08 | funzionante: è presente un bottone che permette il salvataggio in formato png del fiocco di neve
+ - esito test 09 | funzionante: è presente un bottone che permette di resettare tutti i poligoni di ritaglio
+ - esito test 10 | funzionante: è presente un bottone che permette di generare il fiocco di neve
 
 ### Mancanze/limitazioni conosciute
 Non sono presenti i pulsanti per il salvataggio dei punti correnti e per il caricamento di un file di punti.
