@@ -11,10 +11,9 @@
       
 ### Abstract
 
-  È stato creato un applicativo denominato "Fiocco di neve" che, quando viene eseguito, il programma presenta un frame dove è possibile       fare dei tagli ad un triangolo, in modo da poter creare e mostrare un fiocco di neve utilizzando il triangolo appena tagliato.
-  In seguito è viene converitita una copia del fiocco generato, in un formato PNG o SVG.
-  Infine viene inserito in un sito appositamente creato per questo, tutti i requisiti prestabiliti, con il link per installare il file     .jar dell'applicativo "Fiocco di neve" ed infine una serie di screenshot che hanno il ruolo di una mini guida per poter informare gli   utenti su come utilizzare il programma.
-  L'applicativo è stato sviluppato con il linguaggio di java o javascript.
+  È stato creato un applicativo denominato "Fiocco di neve" che, quando viene eseguito, il programma presenta un frame dove è possibile   fare dei tagli ad un triangolo, in modo da poter creare e mostrare un fiocco di neve utilizzando il triangolo appena tagliato.
+  In seguito viene converitita una copia del fiocco generato, in un formato PNG o SVG.
+  Infine viene inserito in un sito appositamente creato per questo, tutti i requisiti prestabiliti, con il link per installare il file     .jar dell'applicativo "Fiocco di neve" ed infine una serie di screenshot che hanno il ruolo di una mini guida per poter informare gli   utenti su come utilizzare il programma. L'applicativo è stato sviluppato con il linguaggio di java.
 
 ### Scopo
 
@@ -155,11 +154,13 @@ controllo funzionalità punti dei poligoni di ritaglio
  - test 01 | creazione di un punto
  - test 02 | spostamento di un punto
  - test 03 | eliminazione di un punto
+ 
 controllo responsive punti, triangolo base, poligoni e fiocco di neve
  - test 04 | resize dei puntini
  - test 05 | resize dei poligoni di ritaglio
  - test 06 | resize del triangolo di base
  - test 07 | resize del fiocco di neve
+ 
 controllo bottoni
  - test 08 | bottone salvataggio del fiocco di neve
  - test 09 | bottone reset dei punti
@@ -219,4 +220,4 @@ Non è stato proprio divertente o interessante, ma neanche così brutto.
 
 ### Sitografia
 
-[](https://www.google.com "Google's Homepage")
+[Pagina web del Fiocco di neve](http://samtinfo.ch/i17grgjur/fioccodineve/FioccoDiNeve.html)
