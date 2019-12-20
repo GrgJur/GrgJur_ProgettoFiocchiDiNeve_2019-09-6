@@ -110,7 +110,8 @@ Il progetto è stato svolto con la versione 10.12.5 del macOS Sierra, appartenen
 
 ### Design dell’architettura del sistema
 
-Dovranno essere presenti dei metodi che permettano la creazione dei puntini che andranno poi a formare tra loro i poligoni di ritaglio. Bisognerà adattare la posizione di ogni oggetto presente (puntini, rettangolo base, poligoni di ritaglio) in base alla dimensione del frame, e per farlo, utilizzò dei calcoli matematici con percentuali. I puntini creati verranno salvati in un apposita lista molto probabilmente. Servirà un metodo per controllare lo stato dei bottoni. Un altro metodo servirà invece per controllare i se viene creato un poligono. Infine un metodo che servirà per resettare tutti i puntini creati.
+Dovranno essere presenti dei metodi che permettano la creazione dei puntini che andranno poi a formare tra loro i poligoni di ritaglio. Bisognerà adattare la posizione di ogni oggetto presente (puntini, rettangolo base, poligoni di ritaglio) in base alla dimensione del frame, e per farlo, dovrò utilizzare dei calcoli matematici con percentuali. I puntini creati verranno salvati in un apposita lista. Servirà un metodo per controllare lo stato dei bottoni. Un altro metodo servirà invece per controllare se viene creato un poligono.
+È necessario gestire il salvataggio dell'immagine del fiocco di neve, quindi sarà presente anche un metodo per questo. Inoltre bisognerà controllare con un altro metodo, se il mouse interagisce con un puntino già creato o no, per farlo potrebbero servire i metodi del MouseMotion e del MouseMotionListener. Infine un metodo che servirà per resettare tutti i puntini creati.
 
 ### Diagramma delle classi e descrizione.
 
@@ -218,4 +219,4 @@ Non è stato proprio divertente o interessante, ma neanche così brutto.
 
 ### Sitografia
 
-
+[](https://www.google.com "Google's Homepage")
