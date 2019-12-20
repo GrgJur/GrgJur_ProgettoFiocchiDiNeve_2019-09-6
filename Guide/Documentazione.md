@@ -11,10 +11,9 @@
       
 ### Abstract
 
-  È stato creato un applicativo denominato "Fiocco di neve" che, quando viene eseguito, il programma presenta un frame dove è possibile       fare dei tagli ad un triangolo, in modo da poter creare e mostrare un fiocco di neve utilizzando il triangolo appena tagliato.
-  In seguito è viene converitita una copia del fiocco generato, in un formato PNG o SVG.
-  Infine viene inserito in un sito appositamente creato per questo, tutti i requisiti prestabiliti, con il link per installare il file     .jar dell'applicativo "Fiocco di neve" ed infine una serie di screenshot che hanno il ruolo di una mini guida per poter informare gli   utenti su come utilizzare il programma.
-  L'applicativo è stato sviluppato con il linguaggio di java o javascript.
+  È stato creato un applicativo denominato "Fiocco di neve" che, quando viene eseguito, il programma presenta un frame dove è possibile   fare dei tagli ad un triangolo, in modo da poter creare e mostrare un fiocco di neve utilizzando il triangolo appena tagliato.
+  In seguito viene converitita una copia del fiocco generato, in un formato PNG o SVG.
+  Infine viene inserito in un sito appositamente creato per questo, tutti i requisiti prestabiliti, con il link per installare il file     .jar dell'applicativo "Fiocco di neve" ed infine una serie di screenshot che hanno il ruolo di una mini guida per poter informare gli   utenti su come utilizzare il programma. L'applicativo è stato sviluppato con il linguaggio di java.
 
 ### Scopo
 
@@ -109,28 +108,15 @@ Il progetto è stato svolto con la versione 10.12.5 del macOS Sierra, appartenen
 ## Progettazione
 
 ### Design dell’architettura del sistema
-Il tutto parte dalla classe FioccoDiNeve.java, questa classe utilizza FioccoDiNeveFrame.java come interfaccia grafica, dove appunto verrà disegnato il fiocco di neve.
-La classe FioccoDiNeve.java estende il JPanel, che permette appunto di passare a FioccoDiNeveFrame.java, grazie al metodo paintComponent; inoltre implementa MouseListener e MouseMotionListener, necessari per poter interagire con l'applicazione.
-I metodi di MouseListener e MouseMotionListener che vengono utilizzati sono mouseClicked e mouseDragged.
-Sono presenti tre liste per il salvataggio dei punti/poligoni di ritaglio: 
- - la lista "percentages" che si occupa di salvare la posizione in percentuale dei puntini dell'attuale poligono che si sta creando, ciò viene permesso grazie ad una classe esterna: PuntoDouble.java
- - la lista "listeDiPunti" che contiene tutte le liste percentages create (che formano appunto un poligono di ritaglio)
- - la lista "polygons", dove vengono presi tutti i punti creati e uniti per formare i vari poligoni, per poi salvare qui dentro
-Oltretutto sono presenti altri 5 metodi:
- - Il metodo "generateSnowFlake", è un semplice metodo per la generazione del fiocco di neve
- - Il metodo "clickedArea", anch'esso è un semplice metodo che controlla se il mouse clicca all'interno dell'area determinata (area blu)
- - Il metodo "isOver" che controlla se il mouse ha cliccato un determinato puntino creato in precedenza
- - Il metodo "closedPolygon" che controlla se il mouse ha cliccato il puntino di origine di un poligono di ritaglio
- - Il metodo "resetLists", resetta tutte le liste, ovvero "percentages", "listeDiPunti" e "polygons"
- - Il metodo "generated" indica se il fiocco è generato o meno
 
-### Schema E-R, schema logico e descrizione.
+Dovranno essere presenti dei metodi che permettano la creazione dei puntini che andranno poi a formare tra loro i poligoni di ritaglio. Bisognerà adattare la posizione di ogni oggetto presente (puntini, rettangolo base, poligoni di ritaglio) in base alla dimensione del frame, e per farlo, dovrò utilizzare dei calcoli matematici con percentuali. I puntini creati verranno salvati in un apposita lista. Servirà un metodo per controllare lo stato dei bottoni. Un altro metodo servirà invece per controllare se viene creato un poligono.
+È necessario gestire il salvataggio dell'immagine del fiocco di neve, quindi sarà presente anche un metodo per questo. Inoltre bisognerà controllare con un altro metodo, se il mouse interagisce con un puntino già creato o no, per farlo potrebbero servire i metodi del MouseMotion e del MouseMotionListener. Infine un metodo che servirà per resettare tutti i puntini creati.
+
+### Diagramma delle classi e descrizione.
 
 ![alt text](https://i.ibb.co/YycNn2t/Schermata-2019-12-01-alle-17-16-30.png)
 
-La classe principale (FioccoDiNeve), contiene buona parte del mio codice. Per poter funzionare però ho dovuto implementare MouseListener e MouseMotionListener. Inoltre ho esteso il JPanel, in modo da poter disegnare e passare il paint al frame (FioccoDiNeveFrame). Infine è presente la classe PuntoDouble, che è un aggreggante della classe principale (FioccoDiNeve).
-
-
+La classe principale (FioccoDiNeve), conterrà buona parte del mio codice. Per poter funzionare però dovrò implementare MouseListener e MouseMotionListener e forse anche altro a dipendenza delle necessità. Inoltre avrò bisogno di estendere il JPanel, in modo da poter disegnare e passare il paint al frame (FioccoDiNeveFrame). Infine è presente la classe PuntoDouble, che è un aggreggante della classe principale (FioccoDiNeve).
 
 ### Design delle interfacce
 
@@ -138,12 +124,27 @@ L'interfaccia iniziale dovrebbe presentare il triangolo base da ritagliare al ce
 
 ![alt text](https://i.ibb.co/KXs7Vgq/demo.png)
 
-### Design procedurale
+### Diagramma di flusso
 
-
+![alt text](https://i.ibb.co/w0MXwm5/DiagrammaDiFlusso.png)
 
 ## Implementazione
-scritto in progettazione, devo scrivere la progettazione ancora
+
+Il tutto parte dalla classe FioccoDiNeve.java, questa classe utilizza FioccoDiNeveFrame.java come interfaccia grafica, dove appunto verrà disegnato il fiocco di neve.
+La classe FioccoDiNeve.java estende il JPanel, che permette appunto di passare a FioccoDiNeveFrame.java, grazie al metodo paintComponent; inoltre implementa MouseListener e MouseMotionListener, necessari per poter interagire con l'applicazione.
+I metodi di MouseListener e MouseMotionListener che vengono utilizzati sono mouseClicked e mouseDragged.
+Sono presenti tre liste per il salvataggio dei punti/poligoni di ritaglio: 
+ - la lista "percentages" che si occupa di salvare la posizione in percentuale dei puntini dell'attuale poligono che si sta creando, ciò viene permesso grazie ad una classe esterna: PuntoDouble.java
+ - la lista "listeDiPunti" che contiene tutte le liste percentages create (che formano appunto un poligono di ritaglio)
+ - la lista "polygons", dove vengono presi tutti i punti creati e uniti per formare i vari poligoni, per poi salvare qui dentro
+Oltretutto sono presenti altri metodi:
+ - Il metodo "generateSnowFlake", è un semplice metodo per la generazione del fiocco di neve
+ - Il metodo "clickedArea", anch'esso è un semplice metodo che controlla se il mouse clicca all'interno dell'area determinata (area blu)
+ - Il metodo "isOver" che controlla se il mouse ha cliccato un determinato puntino creato in precedenza
+ - Il metodo "closedPolygon" che controlla se il mouse ha cliccato il puntino di origine di un poligono di ritaglio
+ - Il metodo "resetLists", resetta tutte le liste, ovvero "percentages", "listeDiPunti" e "polygons"
+ - il metodo "saveImage", serve per salvare il fiocco di neve in formato png
+ - il metodo "isGenerated", che controlla se il fiocco è generato o meno
 
 ## Test
 
@@ -153,13 +154,35 @@ controllo funzionalità punti dei poligoni di ritaglio
  - test 01 | creazione di un punto
  - test 02 | spostamento di un punto
  - test 03 | eliminazione di un punto
+ 
+controllo responsive punti, triangolo base, poligoni e fiocco di neve
+ - test 04 | resize dei puntini
+ - test 05 | resize dei poligoni di ritaglio
+ - test 06 | resize del triangolo di base
+ - test 07 | resize del fiocco di neve
+ 
+controllo bottoni
+ - test 08 | bottone salvataggio del fiocco di neve
+ - test 09 | bottone reset dei punti
+ - test 10 | bottone genera fiocco di neve
 
 ### Risultati test
 
-risultati funzionalità punti dei poligoni di ritaglio
- - risultato test 01 | funzionante: il punto viene creato con il click destro del mouse
- - risultato test 02 | funzionante: il punto viene spostato trascinando il punto schiacciando la rotellina centrale del mouse
- - risultato test 03 | funzionante: il punto viene eliminato con il click sinistro del mouse
+risultati controllo funzionalità punti dei poligoni di ritaglio
+ - esito test 01 | funzionante: il punto viene creato con il click destro del mouse
+ - esito test 02 | funzionante: il punto viene spostato trascinando il punto schiacciando la rotellina centrale del mouse
+ - esito test 03 | funzionante: il punto viene eliminato con il click sinistro del mouse
+ 
+risultati controllo responsive punti, triangolo base, poligoni e fiocco di neve
+ - esito test 04 | funzionante: i puntini creati si spostano in maniera corretta, a dipendenza della dimensione della schermata
+ - esito test 05 | funzionante: i poligoni di ritaglio si ridimensionano correttamente
+ - esito test 06 | funzionante: il triangolo di base si ridemensiona correttamente
+ - esito test 07 | non funzionante: il fiocco di neve non possiede un responsive corretto, solo alle dimensioni 1024x768 ha la giusta forma
+ 
+risultati controllo salvataggio
+ - esito test 08 | funzionante: è presente un bottone che permette il salvataggio in formato png del fiocco di neve
+ - esito test 09 | funzionante: è presente un bottone che permette di resettare tutti i poligoni di ritaglio
+ - esito test 10 | funzionante: è presente un bottone che permette di generare il fiocco di neve
 
 ### Mancanze/limitazioni conosciute
 Non sono presenti i pulsanti per il salvataggio dei punti correnti e per il caricamento di un file di punti.
@@ -167,13 +190,12 @@ Non si può tagliare e incollare un puntino, solo eliminarlo, spostarlo o crearn
 Non è presente un anteprima del fiocco di neve generato.
 Una volta che un poligono di ritaglio è stato generato, non si può più modificare la sua struttura.
 Se è presente un poligono di ritaglio incompleto mentre si schiaccia il pulsante "generate", esso non verrà preso in considerazione.
-Il fiocco di neve generato non è responsive, è corretto solo se messo alle dimensioni minime consentite (1024x768).
-Non si può salvare il fiocco di neve.
+Il fiocco di neve generato non è responsive, è corretto solo se messo alle dimensioni minime consentite (1024x768), per coprire questa mancanza ho settato a 1024x768 e fatto in modo che non si potesse ridimensionare la schermata.
 
 
 ## Consuntivo
 
-foto gantt
+![alt text](https://i.ibb.co/6yWkwSb/consuntivo.png)
 
 ## Conclusioni
 
@@ -198,6 +220,4 @@ Non è stato proprio divertente o interessante, ma neanche così brutto.
 
 ### Sitografia
 
-## Allegati
-link al sito del progetto
-
+[Pagina web del Fiocco di neve](http://samtinfo.ch/i17grgjur/fioccodineve/FioccoDiNeve.html)
